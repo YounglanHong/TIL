@@ -7,6 +7,10 @@
 
 ### Algorithm
 
+- [Insertion Sort](https://github.com/YounglanHong/TIL/blob/master/Algorithm/insertion_sort.md)
+
+- [Selection Sort](https://github.com/YounglanHong/TIL/blob/master/Algorithm/selection_sort.md)
+
 ---
 
 ### Cloud

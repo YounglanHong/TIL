@@ -11,6 +11,10 @@
 
 - [Selection Sort](https://github.com/YounglanHong/TIL/blob/master/Algorithm/selection_sort.md)
 
+- [Merge Sort](https://github.com/YounglanHong/TIL/blob/master/Algorithm/merge_sort.md)
+
+- [Quick Sort](https://github.com/YounglanHong/TIL/blob/master/Algorithm/quick_sort.md)
+
 ---
 
 ### Cloud

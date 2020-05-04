@@ -1,3 +1,8 @@
+// Toy Problem: DFS>Network
+// https://programmers.co.kr/learn/courses/30/lessons/43162
+
+/* 블로깅 주소: https://www.notion.so/5-1-f2140b9fa8a542f0bbdbc868b1475bc7 */
+
 function solution(n, computers) {
   var answer = 0;
   // DFS => 각 컴퓨터는 하나의 노드

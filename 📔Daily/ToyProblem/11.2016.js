@@ -1,7 +1,7 @@
 // Toy Problem: 2016
 // https://programmers.co.kr/learn/courses/30/lessons/12901
 
-/* 블로깅 주소: hhttps://www.notion.so/5-11-e516077418844395ba484b036c54a98d */
+/* 블로깅 주소: https://www.notion.so/5-11-e516077418844395ba484b036c54a98d */
 
 function solution(a, b) {
   // a는 1~ 12, b는 ~29 or 30, 31

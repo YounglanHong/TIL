@@ -1,4 +1,6 @@
-- 리액트는 **[사용자 인터페이스](https://medium.com/user-x/x1-ui%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-67c41a117a4a)(UI)**를 만들기 위한 **JavaScript 라이브러리** 입니다.
+# React
+
+- 리액트는 **[사용자 인터페이스](https://medium.com/user-x/x1-ui%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-67c41a117a4a)(UI)** 를 만들기 위한 **JavaScript 라이브러리** 입니다.
 
 - 현재 가장 주목받는 프론트엔드 프레임워크는 리액트, 앵귤러(Angular), 뷰(Vue) 입니다. 이 중 가장 사용자가 많은 프레임워크는 리액트입니다.
 

@@ -1,3 +1,5 @@
+# React Immutability(리액트의 불변성)
+
 - 리액트에서는 컴포넌트의 _state_ 값을 **직접 변경할 수는 없고,** `setState`를 통해서 값을 업데이트 해줘야 합니다.
 
   - why?

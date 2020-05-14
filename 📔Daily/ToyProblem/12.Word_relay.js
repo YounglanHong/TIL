@@ -1,4 +1,4 @@
-// Toy Problem: 2016
+// Toy Problem: 영어 끝말잇기
 // https://programmers.co.kr/learn/courses/30/lessons/12981
 
 /* 블로깅 주소: https://www.notion.so/5-12-f5af3db99fbd4243abdee5229453fbf4 */

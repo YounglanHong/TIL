@@ -1,11 +1,11 @@
-// Toy Problem: 2016
+// Toy Problem: 기능개발
 // https://programmers.co.kr/learn/courses/30/lessons/42586
 
 /* 블로깅 주소: https://www.notion.so/5-13-c3f6892809c94e478e09829cd1558ca4 */
 
 function solution(progresses, speeds) {
   // 작업의 진도 + 작업 속도 = 100 일 때 배포
-  // 결과값: 각 배포마다 몇 개의 기능이 배포되는지 반환
+  // 결과값: 각 배포마다 몇 개의 기능이 배포되는지 반환s
   var answer = [];
   let days = [];
   let count = 0; // 배포시 기능의 수

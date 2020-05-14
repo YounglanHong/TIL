@@ -1,4 +1,4 @@
-// Toy Problem: String_compression
+// Toy Problem: 인형 뽑기
 // https://programmers.co.kr/learn/courses/30/lessons/64061
 
 function solution(board, moves) {

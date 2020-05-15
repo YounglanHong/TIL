@@ -8,10 +8,9 @@
 
 ![node.js_console](./Node.js_image/node.js.png)
 
-    #### `Node.js` 로 http server 구축
-    - VsCode - Node.js 폴더 안에 Node_httpServer.js 파일 생성
-
-    ```jsx
+  #### `Node.js` 로 http server 구축
+   - VsCode - Node.js 폴더 안에 Node_httpServer.js 파일 생성
+     ```jsx
     // Node.js로 http server 구축
 
     const http = require("http");
@@ -25,14 +24,13 @@
     console.log("http server를 실행합니다.");
     ```
 
-    - node terminal에서 **node** Node_httpServer.js 실행
+   - node terminal에서 **node** Node_httpServer.js 실행
+     ![node.js_console2](./Node.js_image/node.js2.png)
 
-    ![node.js_console2](./Node.js_image/node.js2.png)
-
-    - [http://localhost:8080](http://localhost:8080)으로 접속해서 http server 생성 확
-
-    ![httpServer](./Node.js_image/httpServer.js.png)
-
+   - [http://localhost:8080](http://localhost:8080)으로 접속해서 http server 생성 확
+     ![httpServer](./Node.js_image/httpServer.js.png)
+     
+     
 - `JavaScript` 는 웹 브라우저 안에서 실행 해야만 구동이 가능했는데 `Node.js` 를 활용하면 리눅스와 같은 서버 환경에서도 JavaScript를 **_브라우저 밖에서_** node 명령어로 실행시켜 결과나 기능을 구동할 수 있습니다.
 
   - VsCode - Node.js 폴더 안에 example.js 파일 생성
@@ -55,3 +53,6 @@
 https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
 
 https://techneedle.com/archives/30164
+
+http://junil-hwang.com/blog/javascript-node-js/
+

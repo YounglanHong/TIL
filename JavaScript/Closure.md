@@ -23,7 +23,7 @@
   //* closure: innerFunc()
   ```
 
-  - 반면에, 외부 함수(outerFunc())와 전역에서는 내부 함수(innerFunc())의 변수 innerVar에 접근할 수 없습니다.
+- 반면에, 외부 함수(outerFunc())와 전역에서는 내부 함수(innerFunc())의 변수 innerVar에 접근할 수 없습니다.
 
   ```jsx
   let globalVar = "global/"; //* 전역 변수
@@ -79,3 +79,19 @@
   ```
 
   - `getPassword` 는 `secret` 함수 내에서 정의된 `password` 에 접근 가능한 **내부 함수(closure)** 입니다. 따라서 이런 함수를 **특권 함수(privileged function)** 라고 부르기도 합니다.
+
+---
+
+※ Reference
+
+※ Reference
+
+[[Javascript] Closure, Hoisting (클로저, 호이스팅)](https://medium.com/@Dongmin_Jang/javascript-closure-hoisting-7bf8eb5062b9)
+
+[Master the JavaScript Interview: What is a Closure?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
+
+[A simple guide to help you understand closures in JavaScript](https://medium.com/@prashantramnyc/javascript-closures-simplified-d0d23fa06ba4)
+
+[[번역] 자바스크립트 스코프와 클로저(JavaScript Scope and Closures)](https://medium.com/@khwsc1/%EB%B2%88%EC%97%AD-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8A%A4%EC%BD%94%ED%94%84%EC%99%80-%ED%81%B4%EB%A1%9C%EC%A0%80-javascript-scope-and-closures-8d402c976d19)
+
+[Javascript Closure? 클로저? 그리고 클로저 사용해 module을 만들기!](https://velog.io/@victor/Javascript-Closure-%ED%81%B4%EB%A1%9C%EC%A0%80)

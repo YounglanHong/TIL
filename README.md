@@ -1,4 +1,4 @@
-# ✍🏻Today I Learned 
+# ✍🏻Today I Learned
 
 - 하루하루 배운 내용을 아는만큼 기록합니다.
 - 새롭게 배운 내용을 계속해서 추가합니다.
@@ -40,6 +40,8 @@
 ### JavaScript
 
 - [What is OOP?](https://github.com/YounglanHong/TIL/blob/master/JavaScript/What_is_OOP%3F.md)
+
+- [Closure](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Closure.md)
 
 ---
 

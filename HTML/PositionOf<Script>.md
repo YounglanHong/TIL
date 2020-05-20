@@ -66,36 +66,42 @@
       ![DOMContentLoaded_Load](./HTML_image/DOMContentLoaded_Load.png)
       ![script_console](./HTML_image/script_console.png)
       
-```html
-<!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Control Script Load</title>
-  </head>
-  <body>
-    ```javascript
-    <script>
-      // 1. **window.onload**
-      window.onload = function () {
-        console.log("1.onload: afterwindowload");
-        var target = document.querySelector("#test");
-        console.log("target:", target);
-      };
-      // 2. **DOMContentLoaded**
-      document.addEventListener("DOMContentLoaded", function () {
-        console.log("2. DOMContentLoaded: afterdomload");
-        var target = document.querySelector("#test");
-        console.log("target:", target);
-      });
-      // 3. **일반 script 코드**
-      console.log("3. script code");
-      var target = document.querySelector("#test");
-    </script>
-    ```
-    <div id="test">test</div>
-  </body>
-</html>
-```
+      ```html
+      <!DOCTYPE html>
+      <html lang="ko">
+        <head>
+          <meta charset="UTF-8" />
+          <title>Control Script Load</title>
+        </head>
+        <body>
+          ```javascript
+          <script>
+            // 1. **window.onload**
+            window.onload = function () {
+              console.log("1.onload: afterwindowload");
+              var target = document.querySelector("#test");
+              console.log("target:", target);
+            };
+            // 2. **DOMContentLoaded**
+            document.addEventListener("DOMContentLoaded", function () {
+              console.log("2. DOMContentLoaded: afterdomload");
+              var target = document.querySelector("#test");
+              console.log("target:", target);
+            });
+            // 3. **일반 script 코드**
+            console.log("3. script code");
+            var target = document.querySelector("#test");
+          </script>
+          ```
+          <div id="test">test</div>
+        </body>
+      </html>
+      ```
+      
+***
+※ Reference
+https://junhobaik.github.io/js-script-position/
+
+https://www.youtube.com/watch?v=Ru5zGHkOgic
       
       

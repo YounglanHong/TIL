@@ -33,6 +33,8 @@
 
 ### HTML
 
+- [script tag의 위치와 script loading 순서 제어](https://github.com/YounglanHong/TIL/blob/master/HTML/PositionOf%3CScript%3E.md)
+
 ---
 
 ### JavaScript

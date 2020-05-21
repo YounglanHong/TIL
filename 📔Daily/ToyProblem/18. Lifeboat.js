@@ -1,6 +1,10 @@
 // Toy Problem: 구명 보트
 // https://programmers.co.kr/learn/courses/30/lessons/42885
 
+/* ※ Reference
+/*  https://velog.io/@cyranocoding/%EB%8F%99%EC%A0%81-%EA%B3%84%ED%9A%8D%EB%B2%95Dynamic-Programming%EA%B3%BC-%ED%83%90%EC%9A%95%EB%B2%95Greedy-Algorithm-3yjyoohia5
+/*  https://velog.io/@cyranocoding/%EB%8F%99%EC%A0%81-%EA%B3%84%ED%9A%8D%EB%B2%95Dynamic-Programming%EA%B3%BC-%ED%83%90%EC%9A%95%EB%B2%95Greedy-Algorithm-3yjyoohia5 */
+
 // 풀이 1
 function solution(people, limit) {
   // 구명보트엔 최대 2명

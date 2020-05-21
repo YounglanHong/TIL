@@ -1,3 +1,5 @@
+# Proxy(프록시)
+
 - **프록시**(**Proxy)** 는 클라이언트-서버 사이를 **중계 해주는 기능** 을 의미합니다.
 
   ![proxy](./Network_image/proxy.png)

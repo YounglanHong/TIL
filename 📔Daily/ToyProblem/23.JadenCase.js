@@ -5,6 +5,8 @@
 
 // 풀이1
 //* 정규표현식
+// (ref) https://ryulog.tistory.com/152
+
 function solution(s) {
   /* s의 첫글자 영문이면, 대문자/ 영문 아니면, 그대로 */
 
@@ -41,4 +43,29 @@ function solution(s) {
     }
   }
   return answer;
+}
+
+// 풀이3
+//* - charAt(index) : 문자열에서 특정 인덱스에 위치하는 유니코드 단일문자를 반환
+//* - substring(start_index): string 객체의 시작 인덱스로 부터 종료 인덱스 전 까지 문자열의 부분 문자열을 반환
+
+function solution(s) {
+  return s
+    .split(" ")
+    .map((v) => v.charAt(0).toUpperCase() + v.substring(1).toLowerCase())
+    .join(" ");
+}
+
+// 설명
+function solution(s) {
+  return s
+    .split(" ")
+    .map(
+      (word) =>
+        // console.log(word) // 3people  unFollowed  me
+        // [첫글자] console.log(word.charAt(0)) // 3 u m
+        // [나머지글자] console.log(word.substring(1)) // people  nFollowed  e
+        word.charAt(0).toUpperCase() + word.substring(1).toLowerCase()
+    )
+    .join(" ");
 }

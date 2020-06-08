@@ -21,7 +21,7 @@ function solution(people, limit) {
   // 최고 무게 + 최소 무게 <= limit
   //! 실행 시간이 더 짧은 다른 방법을 찾아보세요.
   for (i = people.length - 1; j < i; i--) {
-    // 최고 무게 + 최소 무게 <= limit
+    // [조건] 최고 무게 + 최소 무게 <= limit
     if (people[i] + people[j] <= limit) {
       j++;
       answer++;
@@ -53,6 +53,7 @@ function solution(people, limit) {
   // [ 50, 70, 80 ]
   let count = 0;
   while (people.length) {
+    // [조건] 최소 무게 + 최대 무게 <= limit
     if (people[0] + people[people.length - 1] <= limit) {
       people.shift(); // 0번째 인덱스 제거
       people.pop(); // 마지막 인덱스 제거

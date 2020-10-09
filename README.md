@@ -37,6 +37,8 @@
 
 ### Git
 
+- [fatal: refusing to merge unrelated histories](https://github.com/YounglanHong/TIL/blob/master/Git/git_error.md)
+
 ---
 
 ### HTML

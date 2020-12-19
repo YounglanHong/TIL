@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail Inbox</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <table class="inbox">
+      <thead class="sr-only">
+        <tr>
+          <th scope="col">Actions</th>
+          <th scope="col">Sender</th>
+          <th scope="col">Title</th>
+          <th scope="col">Timestamp</thscope="col">
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="unread">
+          <!-- Actions -->
+          <td>
+            <div class="inbox-actions">
+              <div class="inbox-checkbox">
+                <input type="checkbox" id="inbox-1" />
+                <label for="inbox-1" class="sr-only">
+                  Select this email
+                </label>
+              </div>
+              <button type="button" class="inbox-star">
+                <span class="sr-only">Add to Favorites</span>
+              </button>
+  
+            </div>
+          </td>
+          <!-- Sender -->
+          <td>
+            Groom Edu
+          </td>
+          <!-- Title -->
+          <td>
+            <a href="#">
+              <strong class="sr-only">Unread:</strong>
+              <strong>Rate your course: FRONTEND 101 WITH KIMBUG</strong> 
+              <span>
+              - Woohyeon. How’s everything going? We want to hear your opnion on...
+              </span>
+            </a>
+          </td>
+          <!-- Timestamp -->
+          <td>
+            3: 34 PM
+          </td>
+        </tr>
+        <tr class="read">
+          <!-- Actions -->
+          <td>
+            <div class="inbox-actions">
+              <div class="inbox-checkbox">
+                <input type="checkbox" id="inbox-1" />
+                <label for="inbox-1" class="sr-only">
+                  Select this email
+                </label>
+              </div>
+              <button type="button" class="inbox-star">
+                <span class="sr-only">Add to Favorites</span>
+              </button>
+            </div>
+          </td>
+          <!-- Sender -->
+          <td>
+            Groom Edu
+          </td>
+          <!-- Title -->
+          <td>
+            <a href="#">
+              <strong class="sr-only">Read:</strong>
+              <strong>Rate your course: FRONTEND 101 WITH KIMBUG</strong> 
+              <span>
+              - Woohyeon. How’s everything going? We want to hear your opnion on...
+              </span>
+            </a>
+          </td>
+          <!-- Timestamp -->
+          <td>
+            3: 34 PM
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="./app.js"></script>
+  </body>
+</html>

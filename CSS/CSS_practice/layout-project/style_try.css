@@ -1,0 +1,525 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: -1;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/************************************************************/
+
+#landing,
+section,
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.category {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.anchor-button {
+  display: block;
+  width: 140px;
+  height: 48px;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.6;
+  /* padding-top: 10px; */
+}
+
+.anchor-button span {
+  display: block;
+  transform: translateY(50%);
+}
+
+/************************  Landing  ************************/
+
+#landing {
+  height: 568px;
+  color: #2b292d;
+  text-align: center;
+  letter-spacing: -0.05em;
+  background-color: #fdded8;
+}
+
+#landing h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+#landing h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.375;
+  margin-bottom: 24px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+.button-group a:first-child {
+  color: #fff;
+  background-color: #3040c4;
+  margin-right: 8px;
+}
+
+.button-group a:last-child {
+  background-color: #fff;
+  color: #3040c4;
+}
+
+/************************  Service  ************************/
+
+#service {
+  height: 496px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f5f7;
+}
+
+#service h1 + div {
+  margin-bottom: 40px;
+}
+
+.service-content {
+  max-width: 290px;
+  color: #2b292d;
+}
+
+.service-title {
+  font-size: 22px;
+  line-height: 1.36363636;
+  letter-spacing: -0.04;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.service-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01;
+  font-weight: 400;
+}
+
+/************************  Program  ************************/
+
+#program {
+  height: 1377px;
+  color: #2b292d;
+}
+
+#program .category {
+  color: #009b4d;
+}
+
+#program header {
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+#program header,
+.program-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.program-items {
+  align-items: center;
+}
+
+.program-title {
+  font-size: 34px;
+  line-height: 1.058823;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.program-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.program-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 291px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 1e-5) 100%
+    ),
+    #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.program-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 291px;
+  font-size: 18px;
+  line-height: 1.33333333;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: #2b292d;
+}
+
+.program-item:hover {
+  background-color: #3040c4;
+}
+
+.program-item a:hover {
+  color: #fff;
+}
+
+.program-item img {
+  width: 142.21px;
+  height: 195px;
+  margin-bottom: 16px;
+}
+
+/************************  Curriculum  ************************/
+
+#curriculum {
+  height: 706px;
+}
+
+#curriculum .category {
+  color: #0189d1;
+}
+
+#curriculum header,
+.curr-detail {
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+#curriculum header a {
+  text-align: center;
+  color: #fff;
+  background-color: #3040c4;
+  margin-bottom: 48px;
+}
+
+.curr-title {
+  font-size: 34px;
+  line-height: 1.058823;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.curr-desc {
+  margin-bottom: 32px;
+}
+
+.curr-detail p:first-child {
+  margin-bottom: 40px;
+}
+
+.curr-detail-item strong {
+  font-weight: 700;
+}
+
+.curr-detail-item {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.466666;
+  letter-spacing: -0.01em;
+}
+
+/************************  Subscription  ************************/
+
+#subscription {
+  height: 588px;
+  background-color: #f2f8fa;
+  text-align: center;
+}
+
+#subscription::before {
+  content: "";
+  display: block;
+  width: 191.48px;
+  height: 190px;
+  background-image: url("./assets/img-banner.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+#subscription header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.05;
+  margin: 16px 0;
+}
+
+#subscription header p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01;
+  margin-bottom: 24px;
+}
+
+#subscription form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#subscription form input,
+#subscription form button {
+  border: none;
+  width: 290px;
+  height: 48px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+}
+
+#subscription form button {
+  background-color: #3040c4;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.05;
+}
+
+.misc {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.538461;
+  color: #7b7b7e;
+}
+
+#subscription p a {
+  color: #3040c4;
+  text-decoration: underline;
+}
+
+/****************************  Footer  ****************************/
+
+footer {
+  height: 136px;
+  padding: 24px 15px;
+}
+
+footer a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714285;
+  letter-spacing: -0.01;
+  margin-bottom: 8px;
+  color: #807f81;
+}
+
+/*  media-query */
+
+@media screen and (min-width: 768px) {
+  #landing h1 {
+    font-size: 70px;
+  }
+
+  #landing h3 {
+    font-size: 22px;
+  }
+
+  .category {
+    font-size: 22px;
+  }
+  #service {
+    height: 340px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #service h1 + div {
+    margin-bottom: 0;
+  }
+
+  #program {
+    height: 827px;
+  }
+
+  #program header {
+    max-width: 770px;
+    text-align: center;
+  }
+
+  .program-title {
+    font-size: 56px;
+  }
+
+  .program-desc {
+    font-size: 22px;
+  }
+
+  .program-items {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .program-item {
+    margin: 0 15px;
+  }
+
+  .curr-title {
+    font-size: 56px;
+  }
+
+  .curr-desc {
+    font-size: 22px;
+  }
+
+  #curriculum header,
+  .curr-detail {
+    margin: 0 auto;
+  }
+
+  #curriculum header {
+    display: flex;
+    max-width: 930px;
+  }
+
+  .curr-header {
+    max-width: 450px;
+    margin-bottom: 24px;
+  }
+
+  #curriculum header::after {
+    content: "";
+    display: block;
+    width: 425px;
+    height: 426px;
+    background-image: url("./assets/img-curriculum.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .curr-detail {
+    display: flex;
+    max-width: 930px;
+  }
+  .curr-detail-item {
+    font-size: 18px;
+    max-width: 450px;
+  }
+
+  .curr-detail-item:first-child {
+    margin-right: 30px;
+  }
+
+  .curr-text {
+    text-align: left;
+    max-width: 530px;
+  }
+
+  #subscription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #subscription::before {
+    margin: 0 83px 0 0;
+  }
+
+  #subscription header {
+    display: flex;
+  }
+
+  #subscription header h2 {
+    font-size: 40px;
+  }
+
+  .misc {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  #subscription form {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4px;
+  }
+
+  #subscription form input {
+    width: 362px;
+    margin-right: 8px;
+  }
+
+  #subscription form input::placeholder {
+    font-size: 18px;
+  }
+
+  #subscription form button {
+    width: 160px;
+  }
+
+  footer {
+    height: 56px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 12vw;
+  }
+
+  footer a {
+    margin-right: 16px;
+  }
+}

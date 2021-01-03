@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  /* background-color: #e5e5e5; */
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #273444;
+}
+
+.user-card {
+  width: 240px;
+  padding: 8px 12px;
+  border: 1px solid #e5eaef;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.user-photo {
+  position: relative;
+}
+
+.user-photo img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+/* clearfix */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.user-photo,
+.user-name {
+  float: left;
+}
+
+.user-status {
+  position: absolute; /* user-photo 기준 */
+  /* top: 27px;
+  left: 30px; */
+  right: 10px;
+  bottom: 0px;
+  /* display: block; width | height */
+  box-sizing: content-box;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #21d891;
+}
+
+.user-name {
+  padding: 8px 0;
+}

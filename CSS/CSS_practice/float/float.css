@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.body {
+  color: #212529;
+}
+
+.parent {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #eff2f7;
+}
+
+.parent::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.child {
+  float: left;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.red {
+  /* float: left; */
+  background-color: #ff4949;
+}
+
+.yellow {
+  background-color: #ffc82c;
+}
+
+.blue {
+  background-color: #0066ff;
+}
+
+.other {
+  color: #fff;
+  background-color: #000;
+}

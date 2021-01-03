@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.tab-menu {
+  max-width: 540px;
+  border-bottom: 1px solid #e5eaef;
+  background-color: #fff;
+}
+
+/* tab-menu-item 레이아웃 문제 해결 */
+/* (1)
+.tab-menu {
+  overflow: hidden;
+} */
+
+/* (2) */
+.tab-menu::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.tab-menu-item {
+  /* 가로 배치 */
+  /* display: inline-block; */
+  float: left;
+  margin-right: 16px;
+}
+
+.tab-menu-item a {
+  display: block;
+  padding: 16px 20px;
+}
+
+.tab-menu-item:hover {
+  border-bottom: 2px solid #2860e1;
+}
+
+.tab-menu-item a:hover {
+  color: #2860e1;
+  font-weight: 600;
+  /* border-bottom: 2px solid #2860e1; */
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  font-family: Mulish;
+}
+
+.profile {
+  width: 386px;
+  height: 304px;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-info img {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-info strong {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #273444;
+}
+
+.profile-info span {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  color: #8492a6;
+}
+
+.profile-detail {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* .profile-detail .friends dt,
+.profile-detail .projects dt,
+.profile-detail .reviews dt {
+  font-weight: 600;
+  font-size: 12px;
+  color: #8492a6;
+} */
+
+dt {
+  font-weight: 500;
+  font-size: 12px;
+  color: #8492a6;
+}
+
+/* .profile-detail .friends dd,
+.profile-detail .projects dd,
+.profile-detail .reviews dd {
+  font-weight: 300;
+  font-size: 32px;
+  color: #0066ff;
+} */
+
+dd {
+  font-weight: 300;
+  font-size: 32px;
+  color: #0066ff;
+}

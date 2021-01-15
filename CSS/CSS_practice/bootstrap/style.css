@@ -1,0 +1,15 @@
+p {
+  padding: 8px 0;
+  border-radius: 2px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.grid-system p {
+  background-color: #0066ff;
+}
+
+.responsive p {
+  background-color: #13ce66;
+}

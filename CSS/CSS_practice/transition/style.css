@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  font-family: "Lato", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+button,
+input,
+textarea {
+  font-family: "Lato", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.line-button {
+  position: relative;
+  padding: 18px 30px;
+  font-size: 16px;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.line-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; /* 0 ~ 100% */
+  height: 2px;
+  background-color: #0066ff;
+  transition: width 250ms ease-in, background-color 250ms ease-in;
+}
+
+.line-button:hover::after {
+  width: 100%;
+  background-color: green;
+}

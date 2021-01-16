@@ -137,6 +137,8 @@
 
 ## Reference
 
+[Responsive Layout](https://responsibleweb.app/#Responsive-Layout-Containers)
+
 [TailwindCSS - Colors](https://tailwindcss.com/docs/customizing-colors)
 
 [CustomElement | Web Components](https://kyu.io/%EC%9B%B9-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B82-%EC%BB%A4%EC%8A%A4%ED%85%80-%EC%97%98%EB%A6%AC%EB%A8%BC%ED%8A%B8/)

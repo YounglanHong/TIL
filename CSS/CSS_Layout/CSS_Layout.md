@@ -33,7 +33,7 @@
 
 ### CSS Grid
 
-#### 1️⃣Explicit Grid(명시적 그리드)
+#### 1️⃣ Explicit Grid(명시적 그리드)
 
 - HTML: semantic 요소
 
@@ -97,9 +97,10 @@
     }
     ```
 
-#### 2️⃣Implicit Grid(암시적 그리드)
+#### 2️⃣ Implicit Grid(암시적 그리드)
 
 - 행,열의 개수를 크기에 맞게 자동으로 조정
+
   💡반응형 그리드: 행,열과 아이템 개수가 불명확한 경우 유용
 
   ```css

@@ -1,0 +1,211 @@
+/* BASE STYLING: COMMENT IN */
+/* Colors & Shadow taken from Tailwind CSS: https://tailwindcss.com/docs/customizing-colors#default-color-palette */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+
+  --gray-100: #f7fafc;
+  --gray-200: #edf2f7;
+  --gray-300: #e2e8f0;
+  --gray-400: #cbd5e0;
+  --gray-500: #a0aec0;
+  --gray-600: #718096;
+  --gray-700: #4a5568;
+  --gray-800: #2d3748;
+  --gray-900: #1a202c;
+
+  --box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+.hide {
+  display: none;
+}
+
+/* STEP 1: DEFINE SPACINGS! */
+/* Fibonacci values(0.25) */
+:root {
+  --space-xss: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.25rem;
+  --space-xxl: 5.25rem;
+}
+
+/* STEP 2: CSS RESET */
+body {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h2,
+h3 {
+  margin: 0;
+}
+main > * {
+  padding: var(--space-xs);
+}
+
+/* STEP 3: SEARCH & NEWSLETTER SIGNUPS */
+
+.site-search {
+  display: flex;
+}
+input {
+  padding: var(--space-xxs);
+  min-height: var(--space-lg);
+  flex-grow: 1;
+  border: 1px solid var(--gray-300);
+}
+button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  gap: var(--space-xxs);
+  font-size: 1rem;
+  min-height: var(--space-lg);
+}
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray-200);
+  border: 1px solid var(--gray-300);
+}
+.btn-cta {
+  align-self: start;
+}
+.site-search .btn {
+  margin-left: -1px;
+}
+.newsletter-signup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.newsletter-signup label {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xxs);
+}
+.icon-definitions {
+  display: none;
+}
+
+/* aria-expanded UTILS */
+.expanded--hidden,
+.expanded--visible {
+  display: none;
+}
+[aria-expanded="true"] .expanded--visible {
+  display: block;
+}
+[aria-expanded="false"] .expanded--hidden {
+  display: block;
+}
+
+/* STEP 4: NAVBAR */
+.navbar .brand,
+.navbar li {
+  padding: var(--space-sm);
+  color: var(--gray-700);
+}
+
+.navbar .brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  box-shadow: var(--box-shadow);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--gray-700);
+}
+.navbar li:hover {
+  background-color: var(--gray-300);
+}
+
+@media screen and (min-width: 40rem) {
+  [is="navbar-toggler"] {
+    display: none;
+  }
+
+  .navbar,
+  .navbar .hide {
+    display: flex;
+  }
+}
+
+/* STEP 5: MAIN GRID & CONTENT STYLING */
+
+.site-search {
+  align-self: end;
+  position: sticky;
+  top: 0;
+}
+
+.newsletter-signup {
+  align-self: start;
+  position: sticky;
+  top: var(--space-xl);
+}
+
+@media screen and (min-width: 40rem) {
+  main {
+    display: grid;
+    grid-template-areas:
+      "header search"
+      "content navbar";
+  }
+}
+
+/* STEP 6: CARDS */
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, auto));
+  gap: var(--space-sm);
+}
+
+.content > * {
+  border: 1px solid var(--gray-300);
+  padding: var(--space-sm);
+  box-shadow: var(--box-shadow);
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.card .authors {
+  margin-top: auto;
+}
+
+@media screen and (min-width: 40rem) {
+  .content > :first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #ffb434;
+  }
+}

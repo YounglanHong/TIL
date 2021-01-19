@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+body div:first-child {
+  margin-bottom: 50px;
+}
+
+/* Modal */
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+[data-modal-id] {
+  border: none;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+[data-modal-id]:hover {
+  cursor: pointer;
+}
+
+[data-modal-id]:active,
+[data-modal-id]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#modal-1 {
+  color: green;
+}
+
+#modal-2 {
+  color: yellow;
+}
+
+.modal {
+  width: 100%;
+  height: 30vh;
+  line-height: 30vh;
+  padding: auto 0;
+  text-align: center;
+  border: grey;
+  background-color: #eeeeee;
+}
+
+/* Button Icon */
+/* 1. without attr */
+/* .container {
+  position: relative;
+}
+
+.button {
+  border: none;
+  background-color: white;
+}
+
+.badge {
+  position: absolute;
+  top: -0.75em;
+  right: -0.75em;
+  padding: 3px 0 0 1px;
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+} */
+
+/* 2. with attr */
+[data-notification-count] {
+  border: none;
+  background-color: white;
+  position: relative;
+}
+[data-notification-count]::before {
+  content: attr(data-notification-count);
+  position: absolute;
+  top: -0.75em;
+  right: -0.75em;
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}

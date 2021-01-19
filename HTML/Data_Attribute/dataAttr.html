@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <script src="https://kit.fontawesome.com/badd6ac7b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dataAttr.css">
+  </head>
+  <body>
+    <!-- Modal -->
+    <!-- ref: https://blog.webdevsimplified.com/2020-10/javascript-data-attributes/ -->
+    <div>
+      <button data-modal-id="modal-1">Open Modal 1</button>
+      <button data-modal-id="modal-2">Open Modal 2</button>
+
+      <span id="modal-1" class="modal hide">Modal 1</span>
+      <span id="modal-2" class="modal hide">Modal 2<span>
+    </div>
+    <!-- Button Icon -->
+    <!-- ref: https://blog.webdevsimplified.com/2019-10/use-data-attributes-in-css/ -->
+    <!-- 1. without attr -->
+    <!-- <div class="container">
+      <button class="button"><i class="far fa-bell fa-2x"></i></button>
+      <span class="badge">5</span>
+    </div> -->
+    <!-- 2. with attr -->
+    <button data-notification-count="5">
+      <i class="far fa-bell fa-2x"></i>
+    </button>
+
+    <script src="./dataAttr.js"></script>
+  </body>
+</html>

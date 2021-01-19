@@ -45,6 +45,8 @@
 
 - [script tag의 위치와 script loading 순서 제어](https://github.com/YounglanHong/TIL/blob/master/HTML/PositionOf%3CScript%3E.md)
 
+- [data attribute(데이터 속성)](https://github.com/YounglanHong/TIL/tree/master/HTML/Data_Attribute)
+
 ---
 
 ### JavaScript
@@ -54,6 +56,8 @@
 - [Closure](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Closure.md)
 
 - [Chrome과 node.js 환경의 차이점](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Chrome_vs_node.js.md)
+
+- [Loading events: DOMContentLoaded, onload, onunload, onbeforeunload, readyState](https://github.com/YounglanHong/TIL/blob/master/JavaScript/LoadEvents.js)
 
 ---
 

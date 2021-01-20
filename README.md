@@ -61,7 +61,7 @@
 
 - [DOM Manipulation(DOM 조작)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Dom_Manipulation)
 
-- [DOM Traversal(DOM 횡단)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Dom_Traversal)s
+- [DOM Traversal(DOM 횡단)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Dom_Traversal)
 
 ---
 

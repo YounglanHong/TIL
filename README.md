@@ -59,6 +59,10 @@
 
 - [Loading events: DOMContentLoaded, onload, onunload, onbeforeunload, readyState](https://github.com/YounglanHong/TIL/blob/master/JavaScript/LoadEvents.js)
 
+- [DOM Manipulation(DOM 조작)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Dom_Manipulation/index.html)
+
+- [DOM Traversal(DOM 횡단)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Dom_Traversal/index.html)
+
 ---
 
 ---

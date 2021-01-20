@@ -15,7 +15,7 @@
 // });
 
 /* Reusable button event */
-const buttons = document.querySelectorAll("[data-modal-id");
+const buttons = document.querySelectorAll("[data-modal-id]");
 
 buttons.forEach((button) => {
   const modalId = button.dataset.modalId;

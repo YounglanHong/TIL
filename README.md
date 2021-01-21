@@ -63,6 +63,8 @@
 
 - [DOM Traversal(DOM 횡단)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Dom_Traversal)
 
+- [Event Listener: Event Capturing, Bubbling, Delegation(이벤트 캡처링, 버블링, 위임)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/EventListener/Dom_Event.md)
+
 ---
 
 ---

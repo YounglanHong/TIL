@@ -1,0 +1,79 @@
+/**
+ * 1. Avoid the IE 10-11 `min-height` bug.
+ * 2. Set `flex-shrink` to `0` to prevent some browsers from
+ *    letting these items shrink to smaller than their content's default
+ *    minimum size. See http://bit.ly/1Mn35US for details.
+ * 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
+ */
+
+/* (ref: https://hyunseob.github.io/solved-by-flexbox-kr/demos/holy-grail/) */
+
+.HolyGrail {
+  display: flex;
+  height: 100%; /* 1, 3 */
+  text-align: center;
+  flex-direction: column;
+}
+
+header,
+footer {
+  min-height: 5vh;
+  line-height: 5vh;
+  border-radius: 3px;
+}
+
+header {
+  background-color: #f4d7bc;
+}
+
+footer {
+  background-color: #dbdad9;
+}
+
+main {
+  min-height: 10vh;
+  line-height: 10vh;
+  background-color: #ecffdb;
+}
+
+.HolyGrail-header,
+.HolyGrail-footer {
+  flex: none; /* 2 */
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1 0 auto; /* 2 */
+  flex-direction: column;
+  padding: 10px;
+}
+
+.HolyGrail-content {
+  margin: 10px 0;
+}
+
+.HolyGrail-nav {
+  order: -1; /* 좌측 네비게이션 */
+}
+
+.HolyGrail-nav,
+.HolyGrail-ads {
+  padding: 1em;
+  border-radius: 3px;
+  background: rgba(147, 128, 108, 0.1);
+}
+
+@media (min-width: 768px) {
+  .HolyGrail-body {
+    flex-direction: row;
+  }
+  .HolyGrail-content {
+    flex: 1;
+    padding: 0 20px;
+    margin: 0 10px;
+  }
+  .HolyGrail-nav,
+  .HolyGrail-ads {
+    flex: 0 0 12em; /* 열의 너비 */
+  }
+}

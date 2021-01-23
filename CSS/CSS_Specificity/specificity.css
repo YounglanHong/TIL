@@ -1,0 +1,124 @@
+:root {
+  --red: #ff4949;
+  --orange: #ff5216;
+  --yellow: #ffc82c;
+  --green: #13ce66;
+  --blue: #1fb6ff;
+  --purple: #7e5bef;
+  --pink: #ff49db;
+  --gray: #718096;
+  --black: #1a202c;
+
+  --space-xss: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.25rem;
+  --space-xxl: 5.25rem;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*** Elemental Selectors ***/
+/* Type */
+body {
+  padding: var(--space-sm);
+}
+
+dl {
+  padding: var(--space-xs);
+  color: yellow;
+  background-color: yellowgreen;
+}
+
+dt {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+div {
+  margin: var(--space-xss);
+  padding: var(--space-xss);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Pseudo-Element */
+dt::before {
+  content: "▶️";
+  color: var(--grey);
+  margin-right: var(--space-xss);
+}
+
+dd::selection {
+  color: grey;
+  background-color: yellow;
+}
+
+dd::after {
+  content: "";
+  display: block;
+  margin: var(--space-sm);
+}
+
+/* Universal */
+* {
+  opacity: 0.97;
+}
+
+/*** Class Selectors ***/
+/* class */
+.class {
+  color: var(--yellow);
+  background-color: var(--orange);
+}
+
+/* Pseudo-Class */
+.class:hover {
+  color: var(--orange);
+  background-color: var(--yellow);
+}
+
+a:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+.class:is(.html) {
+  color: var(--blue);
+}
+
+.class:not(.html) {
+  color: var(--black);
+}
+
+.class:is(:last-child) {
+  color: var(--green);
+}
+
+.class:lang(ko):hover {
+  color: white;
+  background-color: chocolate;
+}
+
+/* Attribute */
+[title="웹 프로그래밍"]:hover {
+  color: var(--pink);
+}
+
+[attr~="웹"]:hover {
+  color: var(--purple);
+}
+
+/* ID */
+#web-dev {
+  border-radius: 0.5em;
+  /* background-color: var(--yellow); */
+}

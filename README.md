@@ -29,6 +29,8 @@
 
 - [CSS Box Model](https://github.com/YounglanHong/TIL/blob/master/CSS/CSSBoxModel.md)
 
+- [CSS Specificity(명시도, 우선순위)](https://github.com/YounglanHong/TIL/tree/master/CSS/CSS_Specificity)
+
 ---
 
 ### Database
@@ -64,6 +66,8 @@
 - [DOM Traversal(DOM 횡단)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Dom_Traversal)
 
 - [Event Listener: Event Capturing, Bubbling, Delegation(이벤트 캡처링, 버블링, 위임)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/EventListener/Dom_Event.md)
+
+- [Arrow Function(화살표 함수) & this](https://github.com/YounglanHong/TIL/blob/master/JavaScript/arrow_function.js)
 
 ---
 

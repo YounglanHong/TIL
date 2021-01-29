@@ -1,4 +1,4 @@
-### 2. 삽입정렬(insertion sort)
+## 2. 삽입정렬(insertion sort)
 
 - 시간복잡도: O(n^2) (이미 정렬된 배열의 경우 O(n))
 

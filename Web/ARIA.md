@@ -28,14 +28,14 @@
 
 ### Reference
 
-![WAI-ARIA | W3](https://www.w3.org/TR/wai-aria/)
+[WAI-ARIA | W3](https://www.w3.org/TR/wai-aria/)
 
-![WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/)
+[WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/)
 
-![ARIA | MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+[ARIA | MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
 
-![ARIA Roles | MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+[ARIA Roles | MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 
-![ARIA Labels and Relationships](https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships)
+[ARIA Labels and Relationships](https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships)
 
-![레진 WAI-ARIA 가이드라인 소개](https://tech.lezhin.com/2018/04/20/wai-aria)
+[레진 WAI-ARIA 가이드라인 소개](https://tech.lezhin.com/2018/04/20/wai-aria)

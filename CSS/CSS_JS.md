@@ -20,7 +20,7 @@
 
 3. JavaScript로 CSS **너비**, **높이** 값 탐색
 
-   ![Geometry Property](./CSS_Image/geometry_prop.png)
+     <img src="./CSS_Image/geometry_prop.png" width="400" height="300">
 
    ```js
    document.querySelector("selectors").offsetWidth;
@@ -28,22 +28,26 @@
    document.querySelector("selectors").scrollWidth;
    ```
 
-   ![innerWidht, innerHeight](./CSS_Image/innerWidth&Height.png)
+   ***
+
+     <img src="./CSS_Image/innerWidth&Height.png" width="400" height="300">
 
    ```js
-   window.innerWidth;
-   window.innerHeight;
+   window.innerWidth; // border 내부 너비
+   window.innerHeight; // border 내부 높이
    ```
 
    ※ `innerWidth`, `innerHeight`는 읽기 전용
 
    - 너비, 높이 변경: [`window.resizeTo`](https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeTo)
 
-   ![availWidth, availWidth](./CSS_Image/availWidth&Height.png)
+   ***
+
+   <img src="./CSS_Image/availWidth&Height.png" width="400" height="300">
 
    ```js
-   window.screen.availWidth;
-   window.screen.availHeight;
+   window.screen.availWidth; // 실제 사용 가능한 화면 너비
+   window.screen.availHeight; // 실제 사용 가능한 화면 높이
    ```
 
 ---

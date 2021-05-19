@@ -15,7 +15,7 @@
     * 대문자, 소문자, 아라비아 숫자, 공백 및 특수 문자
     * 0 ~ 127(총 128자)의 숫자로 문자 표현
 
-    ![ASCII Code table](./Software_Image/ASCII-table.png)
+    ![ASCII Code table](./Software_Image/ASCII-Table.png)
 
     ```js
     let str = "hello";

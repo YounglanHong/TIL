@@ -115,6 +115,12 @@
 
 ---
 
+### Software
+
+- [Character Encoding(문자열 인코딩)](https://github.com/YounglanHong/TIL/blob/master/Software/Character-Encoding.md)
+
+***
+
 ### TypeScript
 
 ---

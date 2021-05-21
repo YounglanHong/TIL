@@ -1,16 +1,30 @@
 # Base 64
 
-```
+```js
 // data string
-base 64
+let str = base 64;
 
 // base 64 encoding
-YmFzZSA2NA==
+window.btoa(str);
+// "YmFzZSA2NA=="
+
+// base 64 decoding
+window.atob("YmFzZSA2NA==")
+// "base 64"
 ```
 
-* **이진(binary) 데이터**를 ASCII 코드의 일부(A-Z, a-z, 0-9 + 기호)와 매칭되는 **문자열로 변환**하는 인코딩 방식
-  * 기존 데이터보다 약 30% 길이 증가
-  * 대부분 `==`로 끝나는 문자열
+* [`binary-to-text encoding`](https://en.wikipedia.org/wiki/Binary-to-text_encoding)
+
+* **이진(binary) 데이터**를 *ASCII 코드*의 일부(A-Z, a-z, 0-9 + 기호)와 매칭되는 **문자열로 변환**하는 인코딩 방식
+  * 기존 데이터보다 약 33% 길이 증가
+  * 데이터가 작을 수록 증가폭 더 클 수 있음
+    ```js
+    let str = "a";    // length: 1
+    
+    window.btoa(str); // length: 4
+    // "YQ=="      
+    ```
+  * 대부분 `=` 또는 `==`로 끝나는 문자열
 
     ![Base 64 table](./CS_Image/base64_table.png)
 
@@ -27,5 +41,9 @@ YmFzZSA2NA==
 ### Reference
 
 [Base 64 | Wiki](https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%EC%8A%A464)
+
+[Base 64 | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Base64)
+
+[Base 64 encoding: btoa()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa)
 
 [Decode from Base64 format - Tool](https://www.base64decode.org/)

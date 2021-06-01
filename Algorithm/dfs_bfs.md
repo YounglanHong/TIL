@@ -17,7 +17,9 @@
 ## DFS(Depth-First Search, 깊이 우선 탐색)
 
 * 그래프의 최대 깊이까지 탐색한 후, 다른 경로로 이동하여 탐색하는 알고리즘입니다.
-  * 최대한 멀리 있는 노드를 우선 탐색합니다.
+  * 시작 노드에서 최대한 멀리 있는 노드를 우선 탐색합니다.
+
+    ![Depth-First-Search](./Algorithm_Image/DFS.gif)
 
 * **스택**과 **재귀함수**를 이용하여 구현할 수 있습니다.
 
@@ -86,7 +88,9 @@
 ## BFS(-First Search, 너비 우선 탐색)
 
 * 그래프의 근접 노드부터 탐색한 후, 다른 경로로 이동하여 탐색하는 알고리즘입니다.
-  * 최대한 가까운 노드부터 우선 탐색합니다.
+  * 시작 노드에서 최대한 가까운 노드(이웃 노드)부터 우선 탐색합니다.
+
+    ![Breadth-First-Search](./Algorithm_Image/BFS.gif)
 
 * **큐**를 이용하여 구현할 수 있습니다.
 
@@ -149,7 +153,7 @@
     graph.addEdge("D", "E");
     graph.addEdge("D", "F");
     graph.addEdge("E", "F");
-    
+
     graph.BFS("A")  //   ["A", "B", "C", "D", "E", "F"]
     ```
 
@@ -164,3 +168,5 @@
 [Graph | AWS](https://aws.amazon.com/ko/nosql/graph/)
 
 [Graphs: breadth-first search | freeCodeCamp](https://www.youtube.com/watch?v=wu0ckYkltus)
+
+[Algorithm Visualizer](https://algorithm-visualizer.org/brute-force/depth-first-search)

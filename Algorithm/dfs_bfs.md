@@ -17,7 +17,7 @@
 ## DFS(Depth-First Search, 깊이 우선 탐색)
 
 * 그래프의 최대 깊이까지 탐색한 후, 다른 경로로 이동하여 탐색하는 알고리즘입니다.
-  * 시작 노드에서 최대한 멀리 있는 노드를 우선 탐색합니다.
+  * 시작 노드에서 최대한 *멀리 있는 노드* 를 우선 탐색합니다.
 
     ![Depth-First-Search](./Algorithm_Image/DFS.gif)
 
@@ -88,9 +88,13 @@
 ## BFS(-First Search, 너비 우선 탐색)
 
 * 그래프의 근접 노드부터 탐색한 후, 다른 경로로 이동하여 탐색하는 알고리즘입니다.
-  * 시작 노드에서 최대한 가까운 노드(이웃 노드)부터 우선 탐색합니다.
+  * 시작 노드에서 최대한 *가까운 노드(이웃 노드)* 부터 우선 탐색합니다.
 
     ![Breadth-First-Search](./Algorithm_Image/BFS.gif)
+
+  * BFS는 **P2P 파일 네트워크**에서 피어(peer) 노드를 탐색할 때 활용할 수 있습니다. BFS를 활용해 가장 가까운 이웃 노드만 빠르게 탐색할 수 있습니다.
+
+    ![P2P - BFS](./Algorithm_Image/p2p.png)
 
 * **큐**를 이용하여 구현할 수 있습니다.
 
@@ -157,9 +161,9 @@
     graph.BFS("A")  //   ["A", "B", "C", "D", "E", "F"]
     ```
 
-### Big-O
+  ### Big-O
 
-  * 시간 복잡도는 두 탐색 알고리즘 모두 `O(N)` (N: 그래프 노드의 개수) 이 소요됩니다. 
+    * 시간 복잡도는 두 탐색 알고리즘 모두 `O(N)` (N: 그래프 노드의 개수) 이 소요됩니다. 
 
 ***
 
@@ -170,3 +174,5 @@
 [Graphs: breadth-first search | freeCodeCamp](https://www.youtube.com/watch?v=wu0ckYkltus)
 
 [Algorithm Visualizer](https://algorithm-visualizer.org/brute-force/depth-first-search)
+
+[DFS와 BFS의 차이](https://www.guru99.com/difference-between-bfs-and-dfs.html)

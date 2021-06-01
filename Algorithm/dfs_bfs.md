@@ -91,6 +91,7 @@
 * **큐**를 이용하여 구현할 수 있습니다.
 
   * BFS 구현 예시
+
     ```js
     class Graph {
       constructor() {
@@ -148,8 +149,7 @@
     graph.addEdge("D", "E");
     graph.addEdge("D", "F");
     graph.addEdge("E", "F");
-
-
+    
     graph.BFS("A")  //   ["A", "B", "C", "D", "E", "F"]
     ```
 

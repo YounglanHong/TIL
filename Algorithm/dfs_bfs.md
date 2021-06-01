@@ -18,11 +18,10 @@
 
 * 그래프의 최대 깊이까지 탐색한 후, 다른 경로로 이동하여 탐색하는 알고리즘입니다.
   * 최대한 멀리 있는 노드를 우선 탐색합니다.
-  
+
 * **스택**과 **재귀함수**를 이용하여 구현할 수 있습니다.
 
   * DFS 구현 예시
-
     ```js
     class Graph {
       constructor() {
@@ -63,7 +62,6 @@
         return result;
       }
     }
-
     const graph = new Graph();
     graph.addVertex("A");
     graph.addVertex("B");
@@ -93,7 +91,6 @@
 * **큐**를 이용하여 구현할 수 있습니다.
 
   * BFS 구현 예시
-
     ```js
     class Graph {
       constructor() {
@@ -114,14 +111,11 @@
       BFS(start) {
         const result = [];
         const visited = {};
-
         let vertex; // 현재 노드
         const adjacencyList = this.adjacencyList;
-
         // 탐색 시작 노드를 큐에 넣고, 방문 처리
         const queue = [start];
         visited[start] = true;
-        
         // 큐가 비어있을 때까지 반복
         while (queue.length) {
           // console.log(queue);
@@ -139,7 +133,6 @@
         return result;
       }
     }
-
     const graph = new Graph();
     graph.addVertex("A");
     graph.addVertex("B");

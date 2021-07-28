@@ -11,8 +11,6 @@
 * [Merge Sort](https://github.com/YounglanHong/TIL/blob/master/Algorithm/merge_sort.md)
 * [Quick Sort](https://github.com/YounglanHong/TIL/blob/master/Algorithm/quick_sort.md)
 
-<!-- ## Cloud -->
-
 ## CS
 
 * [Data Compression\(zip\)](https://github.com/YounglanHong/TIL/blob/master/CS/DataCompression.md)
@@ -67,15 +65,10 @@
 * [React Routing](https://github.com/YounglanHong/TIL/blob/master/React/React_routing.md)
 * [React LifeCycle](https://github.com/YounglanHong/TIL/blob/master/React/React_LifeCycle.md)
 
-<!-- ## ReactNative -->
-
 ## Software
 
 * [Character Encoding\(문자열 인코딩\)](https://github.com/YounglanHong/TIL/blob/master/Software/Character-Encoding.md)
-
 * [UUID](https://github.com/YounglanHong/TIL/blob/master/Software/UUID.md)
-
-<!-- ## TypeScript -->
 
 ## Web
 

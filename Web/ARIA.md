@@ -1,4 +1,6 @@
-# Web Accessibility Initiative's Accessible Rich Internet Applications specification (WAI-ARIA, or ARIA)
+# WAI-ARIA, or ARIA
+
+> Web Accessibility Initiative's Accessible Rich Internet Applications specification
 
 - 네이티브 HTML만으로 다룰 수 없는 **접근성(Accessibility)** 문제를 해결합니다.
 

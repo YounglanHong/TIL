@@ -45,6 +45,7 @@
 * [DOM Traversal\(DOM 횡단\)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Dom_Traversal)
 * [Event Listener: Event Capturing, Bubbling, Delegation\(이벤트 캡처링, 버블링, 위임\)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/EventListener/Dom_Event.md)
 * [Arrow Function\(화살표 함수\) & this](https://github.com/YounglanHong/TIL/blob/master/JavaScript/arrow_function.js)
+* [Array sort method(배열 정렬 함수)](https://github.com/YounglanHong/TIL/blob/master/JavaScript/Javascript-array-sort.md)
 
 ## Network
 

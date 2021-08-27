@@ -10,6 +10,15 @@
 2. (컴포넌트를 통한) 재사용성이 좋아서 빠르게 좋은 코드를 만들 수 있습니다.
 3. Angular(데이터 바인딩)와 React(가상 돔)의 장점을 모두 흡수했습니다.
 
+## Vue의 특징
+
+  * MVVM(Model-View-ViewModel) 패턴: 백엔드 로직과 클라이언트 마크업(View, UI)을 분리하여 개발하기 위한 패턴입니다.
+
+    <a href="https://imgur.com/sAIH1oj"><img src="https://i.imgur.com/sAIH1oj.png" title="source: imgur.com" /></a>
+
+  * 컴포넌트: 재사용성을 고려한 화면(View)을 이루는 작은 단위입니다. `.vue` 파일 하나가 하나의 컴포넌트입니다.
+
+***
 
 ### 🔗 Reference
 

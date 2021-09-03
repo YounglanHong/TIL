@@ -30,6 +30,10 @@
 * [Clean Code - part 2 | webDev](https://github.com/YounglanHong/TIL/blob/master/Development/clean_code2.md)
 * [SOLID Principle of OOP](https://github.com/YounglanHong/TIL/blob/master/Development/SOLID.md)
 
+## Front-end
+
+* [Component(컴포넌트)](https://github.com/YounglanHong/TIL/blob/master/Front-end/Component.md)
+
 ## Git
 
 * [git 101](https://github.com/YounglanHong/TIL/blob/master/Git/git_basic.md)

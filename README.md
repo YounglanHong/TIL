@@ -24,7 +24,9 @@
 * [CSS Specificity\(명시도, 우선순위\)](https://github.com/YounglanHong/TIL/tree/master/CSS/CSS_Specificity)
 * [CSS와 관련한 JS: style, getComputedStyle, width/height](https://github.com/YounglanHong/TIL/blob/master/CSS/CSS_JS.md)
 
-## Database
+## Development
+
+* [Clean Code - part 1](https://github.com/YounglanHong/TIL/blob/master/Development/clean_code.md)
 
 ## Git
 

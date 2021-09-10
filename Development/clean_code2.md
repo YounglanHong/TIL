@@ -1,6 +1,7 @@
 # Clean Code
 
 > 🔗 [Junior Vs Senior Code - How To Write Better Code - Part 2](https://www.youtube.com/watch?v=5B587bQ-TNg)를 보고 정리한 내용입니다. 
+> 
 > 🔗 [Noob-Vs-Pro-Code - Github](https://github.com/WebDevSimplified/Noob-Vs-Pro-Code)
 
 ## 3. Async/Await

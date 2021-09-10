@@ -28,6 +28,7 @@
 
 * [Clean Code - part 1 | webDev](https://github.com/YounglanHong/TIL/blob/master/Development/clean_code.md)
 * [Clean Code - part 2 | webDev](https://github.com/YounglanHong/TIL/blob/master/Development/clean_code2.md)
+* [SOLID Principle of OOP](https://github.com/YounglanHong/TIL/blob/master/Development/SOLID.md)
 
 ## Git
 

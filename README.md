@@ -26,7 +26,8 @@
 
 ## Development
 
-* [Clean Code - part 1](https://github.com/YounglanHong/TIL/blob/master/Development/clean_code.md)
+* [Clean Code - part 1 | webDev](https://github.com/YounglanHong/TIL/blob/master/Development/clean_code.md)
+* [Clean Code - part 2 | webDev](https://github.com/YounglanHong/TIL/blob/master/Development/clean_code2.md)
 
 ## Git
 

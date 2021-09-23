@@ -2,8 +2,6 @@
 
 > 🔗 [Useful lessons I've learned about **Handling react state**](https://twitter.com/housecor/status/1437765667906854915?s=11)를 보고 정리한 글입니다. 
 
-***
-
 ### 1. 상태(state)를 다루는 방법과 각각 필요한 상황을 알고 있다.
  ![react-state](https://user-images.githubusercontent.com/53158305/134464915-e5424192-8e92-46fa-8e8e-cfed2d102dc3.jpeg)
  
@@ -58,7 +56,6 @@
  * Spread syntax: `{ ...myObj }`
  * Immutable array methods: `.map`, `.filter`, `.find`, `.some`, `.every`, `.reduce` 등
  
-
 ### 8. 폼(form) 라이브러리는 필요 없다. **패턴**이 필요하다.
  ![form-pattern](https://user-images.githubusercontent.com/53158305/134472080-f65e2252-d2bb-4760-bb77-0b05342a3ddd.jpeg)
  

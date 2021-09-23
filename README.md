@@ -74,6 +74,7 @@
 * [React immutability](https://github.com/YounglanHong/TIL/blob/master/React/React_immutability.md)
 * [React Routing](https://github.com/YounglanHong/TIL/blob/master/React/React_routing.md)
 * [React LifeCycle](https://github.com/YounglanHong/TIL/blob/master/React/React_LifeCycle.md)
+* [React State Tips](https://github.com/YounglanHong/TIL/blob/master/React/React_state_tips.md)
 
 ## Software
 

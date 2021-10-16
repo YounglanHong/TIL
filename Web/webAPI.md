@@ -6,6 +6,7 @@
 
 * 한 프로그램(제공자)에서 다른 프로그램(사용자)으로 데이터를 주고받기 위한 방법
   * 코드에 요청방식(GET, POST 등), 엔드포인트(데이터 종류), 파라미터(추가 정보)를 담아서 통신한다. 
+  ![Web API](./Web_Image/Web_API.png)
   ```
   GET/google.com/search?q=keyword&sourceid=chrome&ie=UTF-8
   ```
@@ -32,5 +33,8 @@
 ### Reference
 
 🔗[Introduction to web API | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction#what_are_apis)
+
 📹[API가 뭐냐면 | 코딩애플](https://www.youtube.com/watch?v=ckSdPNKM2pY)
+
+
 

@@ -44,6 +44,7 @@
 
 * [script tag의 위치와 script loading 순서 제어](https://github.com/YounglanHong/TIL/blob/master/HTML/PositionOf%3CScript%3E.md)
 * [data attribute\(데이터 속성\)](https://github.com/YounglanHong/TIL/tree/master/HTML/Data_Attribute)
+* [DOM element method(돔 요소 메소드)](https://github.com/YounglanHong/TIL/blob/master/HTML/DOM_Element.md)
 
 ## JavaScript
 

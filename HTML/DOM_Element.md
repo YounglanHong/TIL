@@ -19,7 +19,7 @@
     userName)
   ```
 
-### innerHTML 🆚insertAdjacentHTML 
+### innerHTML 🆚 insertAdjacentHTML 
 ![insertAdjacentHTML_innerHTML](./HTML_image/addNode.png)
 
 **`innerHTML`** 
